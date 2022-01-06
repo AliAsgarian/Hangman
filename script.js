@@ -32,6 +32,7 @@ var createButtons = function () {
     letterButtons.appendChild(letters); //update buttons
     letters.appendChild(list); //add element to list
   }
+  
 }
 
 

@@ -23,17 +23,20 @@ h1 {
 p {
    font-size: 1.6em;
 }
-#alphabet {
-   margin: 5% auto;
-   max-width: 80%;
-}
+/* #alphabet {
+   margin: 0 auto;
+   max-width: 80%; 
+   text-align: center;
+} */
 #alphabet:after {
    content: "";
    display: table;
    clear: both;
 }
 #alphabet li {
-   float: left;
+   /* float: left; */
+   display: inline-flex;
+   justify-content: center; 
    margin: 0 10px 10px 0;
    list-style: none;
    width: 35px;
@@ -43,7 +46,6 @@ p {
    color: #000;
    cursor: pointer;
    border-radius: 5px;
-   /* border: solid 1px #fff; */
 }
 #alphabet li:hover {
    background: #2ea1d7;
