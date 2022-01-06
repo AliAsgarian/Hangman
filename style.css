@@ -23,11 +23,11 @@ h1 {
 p {
    font-size: 1.6em;
 }
-/* #alphabet {
+#alphabet {
    margin: 0 auto;
    max-width: 80%; 
    text-align: center;
-} */
+}
 #alphabet:after {
    content: "";
    display: table;
