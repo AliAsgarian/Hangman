@@ -39,7 +39,7 @@ var createButtons = function () {
 
 var selectCat = function () {
   if (selectedTopic === topics[0]) {
-    topicName.innerHTML = "The Chosen Category Is Premier League Football Teams";
+    topicName.innerHTML = "The Chosen Category Is Football Teams";
   } 
   else if (selectedTopic === topics[1]) {
     topicName.innerHTML = "The Chosen Category Is Films";
