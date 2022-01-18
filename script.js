@@ -108,9 +108,9 @@ list.onclick = function () {
 // Play
 play = function () {
   topics = [
-      ["EVERTON", "LIVERPOOL", "SWANSEA", "CHELSEA", "HULL", "MANCHESTER-CITY", "NEWCASTLE-UNITED"],
-      ["ALIEN", "DIRTY-HARRY", "GLADIATOR", "FINDING-NEMO", "JAWS"],
-      ["MANCHESTER", "MILAN", "MADRID", "AMSTARDAM", "PRAGUE"]
+      ["EVERTON", "LIVERPOOL", "ARSENAL", "CHELSEA", "REAL-MADRID", "MANCHESTER-CITY", "FC-BARCELONA"],
+      ["ALIEN", "HARRY-POTTER", "GLADIATOR", "FINDING-NEMO", "JAWS", "SUPERBAD"],
+      ["MANCHESTER", "MILAN", "MADRID", "AMSTARDAM", "PRAGUE", "CHICAGO"]
   ];
 
   selectedTopic = topics[Math.floor(Math.random() * topics.length)];
@@ -135,9 +135,9 @@ play();
   hint.onclick = function() {
 
     hints = [
-      ["Based in Mersyside", "Based in Mersyside", "First Welsh team to reach the Premier Leauge", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
-      ["Science-Fiction horror film", "1971 American action film", "Historical drama", "Anamated Fish", "Giant great white shark"],
-      ["Northern city in the UK", "Home of AC and Inter", "Spanish capital", "Netherlands capital", "Czech Republic capital"]
+      ["Based in Mersyside", "6 Time Champions League Winners", "Invincibles", "Owned by A russian Billionaire", "Galacticos", "2013 FA Cup runners up", "Catalan Club"],
+      ["Science-Fiction horror film", "Wizards", "Historical drama", "Anamated Fish", "Giant great white shark", "Origin of Mclovin meme"],
+      ["Northern city in the UK", "Home of AC and Inter", "Spanish capital", "Netherlands capital", "Czech Republic capital", "Home of the Bulls"]
   ];
 
   var topicIndex = topics.indexOf(selectedTopic);
